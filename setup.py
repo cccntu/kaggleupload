@@ -57,8 +57,8 @@ setup(
 #      python setup.py bdist_wheel
 #      python setup.py sdist
 # 5. Upload the package to the pypi test server first:
-#      twine upload dist/* -r pypitest
-#      twine upload dist/* -r pypitest --repository-url=https://test.pypi.org/legacy/
+#      twine upload dist/* -r testpypi
+#      twine upload dist/* -r testpypi --repository-url=https://test.pypi.org/legacy/
 # 6. Check that you can install it in a virtualenv by running:
 #      pip install -i https://testpypi.python.org/pypi accelerate
 # 7. Upload the final version to actual pypi:
