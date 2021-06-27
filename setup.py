@@ -33,7 +33,7 @@ setup(
         ]
     },
     python_requires=">=3.6.0",
-    install_requires=["kaggle", "hydra-core"],
+    install_requires=["kaggle"],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
