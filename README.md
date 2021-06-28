@@ -6,11 +6,15 @@ An unofficial wrapper around kaggle-api
 * upload a folder as dataset in one command
 ```
 kaggleupload --dataname kaggledatasetname --folder .
-````
-* keep the folder (will zip the whole folder then upload, which is much faster if there are a lot of small files in the root of folder)
+```
+* zip the folder then upload (this is much faster if you have many small files in the root folder)
+```
+kaggleupload --dataname kaggledatasetname --folder . --zip_folder
+```
+*  keep the root folder (will add another empty file at the same level with the root folder)
 ```
 kaggleupload --dataname kaggledatasetname --folder . --keep_folder
-````
+```
 
 
 ## installation
