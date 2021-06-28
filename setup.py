@@ -60,7 +60,7 @@ setup(
 #      twine upload dist/* -r testpypi
 #      twine upload dist/* -r testpypi --repository-url=https://test.pypi.org/legacy/
 # 6. Check that you can install it in a virtualenv by running:
-#      pip install -i https://testpypi.python.org/pypi accelerate
+#      pip install -i https://testpypi.python.org/pypi kaggleupload
 # 7. Upload the final version to actual pypi:
 #      twine upload dist/* -r pypi
 # 8. Add release notes to the tag in github once everything is looking hunky-dory.
