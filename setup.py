@@ -17,7 +17,7 @@ from setuptools import find_packages
 
 setup(
     name="kaggleupload",
-    version="0.0.0",
+    version="0.1.0",
     description="kaggleupload",
     long_description=open("README.md", "r", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
