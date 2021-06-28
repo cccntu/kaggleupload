@@ -4,10 +4,14 @@ An unofficial wrapper around kaggle-api
 
 ## Features
 * upload a folder as dataset in one command
-  * `kaggleupload --dataname kaggledatasetname --folder .`
+```
+kaggleupload --dataname kaggledatasetname --folder .
+````
 
 ## installation
-* `pip insatll kaggleupload`
+```
+pip install kaggleupload
+```
 
 ## TODO
 * support creating new version
